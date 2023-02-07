@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.section1 {
+    max-height: 400vh;
+    min-width: 80vh;
+    color: #711e15;
+    background-color: #7ef57e;
+    padding-top: 2%;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.kit {
+    height: 300px;
+    width: 450px;
+    border: 5px solid #478324;
+    border-radius: 8px;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 50vw;
+    border: 2px solid #23c669;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+.section3 {
+    padding: 73px;
+    background-color: #7ef57e;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.icon {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
